@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfiguration: NextConfig = {
     transpilePackages: ["three"],
     turbopack: {
         rules: {
@@ -14,21 +14,17 @@ const nextConfig: NextConfig = {
             }
         }
     },
-    webpack: (config, { isServer }) =>
+    webpack: (configuration, { isServer }) =>
     {
-        // Add a rule to handle .frag files
-        config.module.rules.push({
-            test: /\.frag$/, // Match .frag files
-            use: 'raw-loader', // Use raw-loader to load them as strings
+        configuration.module.rules.push({
+            test: /\.frag$/,
+            use: ["raw-loader", "glslify", "glslify-loader"],
         });
-
-        // Add a rule to handle .vert files (if you also use vertex shaders)
-        config.module.rules.push({
+        configuration.module.rules.push({
             test: /\.vert$/,
-            use: 'raw-loader',
+            use: ["raw-loader", "glslify", "glslify-loader"],
         });
-
-        return config;
+        return configuration;
     },
     //     webpack: (configuration) =>
     //     {
@@ -41,4 +37,4 @@ const nextConfig: NextConfig = {
     //     }
 };
 
-export default nextConfig;
+export default nextConfiguration;
