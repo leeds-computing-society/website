@@ -21,5 +21,3 @@ export default function Sponsors()
         </div>
     );
 };
-
-// bg-linear-120 from-[#0874B6]/75 to-[#25346A]/75 bg-linear-120 from-[#0874B6]/25 to-[#25346A]/50
