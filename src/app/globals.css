@@ -45,6 +45,18 @@
     --text-8xl--line-height: auto;
     --text-8xl--font-weight: 500;
 
+    --text-header-sm: 2.5rem;
+    --text-header-sm--line-height: 3rem;
+    --text-header-sm--font-weight: 500;
+
+    --text-header-md: 3rem;
+    --text-header-md--line-height: 3.5rem;
+    --text-header-md--font-weight: 500;
+
+    --text-header-lg: 4rem;
+    --text-header-lg--line-height: 4.5rem;
+    --text-header-lg--font-weight: 500;
+
     /*
     COLOR
     */
