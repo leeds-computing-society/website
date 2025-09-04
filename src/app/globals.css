@@ -110,6 +110,13 @@ html {
         right 2s;
 }
 
+.transition-navigation {
+    interpolate-size: allow-keywords;
+    transition:
+        height 0.25s,
+        border-bottom-color 0.25s;
+}
+
 .link {
     cursor: pointer;
     text-decoration: none;
@@ -132,16 +139,18 @@ html {
     }
 }
 
+/* from-[#272F64]/50 to-[#272F64]/25 */
+
 @property --tpp-brand-primary {
     syntax: "<color>";
     inherits: false;
-    initial-value: #0873b680;
+    initial-value: #272f6480;
 }
 
 @property --tpp-brand-secondary {
     syntax: "<color>";
     inherits: false;
-    initial-value: #25346a80;
+    initial-value: #272f6440;
 }
 
 .bg-tpp {
@@ -151,7 +160,7 @@ html {
         --tpp-brand-secondary 0.25s;
 
     &:hover {
-        --tpp-brand-primary: #0873b6;
-        --tpp-brand-secondary: #25346a;
+        --tpp-brand-primary: #272f64;
+        --tpp-brand-secondary: #272f64;
     }
 }

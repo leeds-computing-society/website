@@ -33,7 +33,6 @@ export const BackgroundGradient = () =>
     useFrame(({ clock }) =>
     {
         if (!gradientShader.current) return;
-        console.log(clock.elapsedTime);
         gradientShader.current.time = clock.elapsedTime * 0.1;
     });
 

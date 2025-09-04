@@ -1,8 +1,16 @@
+"use client";
+import { useRouter } from "next/navigation";
 import { FooterLink } from "./footer-link";
 import { TPPLogo } from "./tpp-logo";
 
 export const Footer = () =>
 {
+    let router = useRouter();
+    // let handleTPPClick = () =>
+    // {
+    //     window.open("https://tpp-careers.com");
+    // };
+
     return (
         <div className="flex flex-row justify-center border-t border-b border-dashed border-white/50">
             <div className="flex flex-col min-[48rem]:flex-row justify-between mx-6 min-[64rem]:mx-12 min-[80rem]:mx-48 grow max-w-[96rem] border-l border-r border-dashed border-white/50">
@@ -42,15 +50,15 @@ export const Footer = () =>
                         </div>
                     </div>
                 </div>
-                <div className="text-white/75 max-[48rem]:border-t min-[48rem]:border-l border-dashed border-white/50">
+                <div className="text-white/75 max-[48rem]:mb-6 max-[48rem]:border-t min-[48rem]:border-l border-dashed border-white/50">
                     <div className="flex flex-col h-full">
                         <div className="p-6 border-b border-dashed border-white/50">
                             <div className="text-nowrap">Sponsored By </div>
                         </div>
                         <div className="flex flex-col">
-                            <a href="https://tpp-careers.com" className="p-6 gap-6 border-b border-dashed border-white/50 bg-tpp">
-                                <TPPLogo className="mx-auto fill-white h-10"></TPPLogo>
-                            </a>
+                            <button onClick={() => router.push("https://tpp-careers.com")} className="px-6 cursor-pointer border-b border-dashed border-white/50 bg-tpp">
+                                <TPPLogo className="my-6 mx-auto fill-white h-10 pointer-events-none"></TPPLogo>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -58,3 +66,5 @@ export const Footer = () =>
         </div>
     );
 };
+
+//href=
