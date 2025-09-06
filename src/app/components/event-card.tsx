@@ -16,8 +16,9 @@ export const EventCard = (properties: EventCardProperties) =>
 {
     let router = useRouter();
 
-    let buttonClicked = (link: string) =>
+    let buttonClicked = (link: string | null | undefined) =>
     {
+        if (link == null) return;
         router.push(link);
     };
 
