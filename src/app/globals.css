@@ -123,10 +123,20 @@ html {
 }
 
 .transition-navigation {
-    interpolate-size: allow-keywords;
+    /* interpolate-size: allow-keywords; */
+    box-sizing: border-box;
     transition:
         height 0.25s,
         border-bottom-color 0.25s;
+}
+
+.gap-events {
+    gap: -1px;
+}
+
+.mask-event {
+    /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));*/
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
 }
 
 .link {
@@ -148,6 +158,12 @@ html {
     &:hover::after {
         left: 0;
         width: 100%;
+    }
+}
+
+.link-leeds-hack {
+    &::after {
+        background: #00bf63;
     }
 }
 

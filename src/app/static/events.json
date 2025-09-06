@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Pixel Bar GIAG (Give It A Go)",
+        "location": "Pixel Bar, LS1 3AL",
+        "description": "Give it a Go event at Pixel Bar with an organised game tournament, relaxed gaming, and socialising."
+    },
+    {
+        "name": "Welcome and Intro Social",
+        "location": "Pyramid Canteen, LUU",
+        "when": "2025-09-30 19:00",
+        "description": "Short welcome talk with an introduction to the society, committee, and our plans for the year, followed by relaxed drinks and socialising at a bar.",
+        "link": "https://google.com",
+        "linkText": "Register"
+    },
+    {
+        "image": "/events/events-pixel-bar.jpg",
+        "name": "Pixel Bar Social Night",
+        "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
+        "when": "2024-10-03 19:00",
+        "description": "Our first Give it a Go at Pixel Bar was a brilliant opportunity to meet other members and play some games. If you missed it, don't worry - there are plenty of Pixel Bar socials throughout the year."
+    },
+    {
+        "image": "/events/events-capture-the-flag.jpg",
+        "name": "Capture the Flag",
+        "location": "Helix@UoL, EC Stoner, Woodhouse, Leeds LS2 3AR",
+        "when": "2024-10-08 16:00",
+        "description": "Our second Give it a Go saw participants test their cybersecurity and problem-solving skills in a competitive puzzle competition finding secret codes in files and websites, with prizes for the winning team."
+    },
+    {
+        "image": "/events/events-casino-night.jpg",
+        "name": "Charity Casino Night",
+        "location": "LUU Function Room, Woodhouse, Leeds LS2 9JZ",
+        "when": "2024-03-02 19:00",
+        "description": "An action-packed night of casino-themed games (without the risk) that raised \u00a3376 for Computer Aid International and was praised by attendees as the best social yet!"
+    },
+    {
+        "image": "/events/events-fridge-to-fridge.jpg",
+        "name": "Fridge-to-Fridge",
+        "location": "Various locations in Hyde Park, Leeds",
+        "when": "2024-02-16 19:00",
+        "description": "A four-part night with different themed alcoholic and non-alcoholic drinks at each location, it was a huge success and a great opportunity to make new friends."
+    },
+    {
+        "image": "/events/events-summer-ball.jpg",
+        "name": "Charity Summer Ball",
+        "location": "Queens Hotel, New Station Street, Leeds LS1 1PJ",
+        "when": "2024-05-05 18:00",
+        "description": "Our final and biggest event of the year, the black-tie Summer Ball had 280 attendees who were served a three-course meal with drinks, a DJ, and awards to make it a memorable night."
+    },
+    {
+        "image": "/events/events-pub-quiz.jpg",
+        "name": "Pub Quiz",
+        "location": "LUU Function Room, Woodhouse, Leeds LS2 9JZ",
+        "when": "2023-11-27 18:30",
+        "description": "A unique computer science twist on a pub quiz, including a hygiene round which was surprisingly well answered, interactive challenges, and themed prizes."
+    },
+    {
+        "image": "/events/events-mario-kart.jpg",
+        "name": "Mario Kart Tournament",
+        "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
+        "when": "2023-11-09 18:00",
+        "description": "Our first games tournament was a huge success with closely fought battles and a nail-biting final on the big screen, hosted at Pixel Bar who provided equiment and themed drinks."
+    },
+    {
+        "image": "/events/events-smash-bros.jpg",
+        "name": "Smash Bros Ultimate Tournament",
+        "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
+        "when": "2024-02-29 18:00",
+        "description": "We built on the success of our first tournament by introducing casual and competitive brackets to get more people involved, and once again Louis and Pixel Bar hosted a flawless event."
+    },
+    {
+        "image": "/events/events-leedshack.jpg",
+        "name": "LeedsHack 2025",
+        "location": "Sir William Henry Bragg, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "when": "2025-02-08 10:00",
+        "description": "Our first hackathon was a huge success - 24 hours of coding, workshops, and networking with industry professionals, with prizes for the best projects and a chance to showcase skills and learn new ones."
+    },
+    {
+        "image": "/events/events-rtc-workshop.jpg",
+        "name": "Rewriting the Code Workshop",
+        "location": "GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "when": "2025-02-04 17:00",
+        "description": "We're excited to announce our partnership with Rewriting the Code, and our first workshop covered networking, assessments, and interviews, fostering a sense of community for our female and non-binary members."
+    },
+    {
+        "image": "/events/events-halloween-fridge-to-fridge.jpg",
+        "name": "Halloween Fridge-to-Fridge",
+        "location": "Various locations in Hyde Park, Leeds",
+        "when": "2024-10-25 20:00",
+        "description": "The return of our fridge-to-fridge with a Halloween twist was another success, and there were some brilliant costumes on display! There's no better way to celebrate spooky season than with your friends and a fridge-to-fridge."
+    },
+    {
+        "image": "/events/events-mario-kart-2.jpg",
+        "name": "Mario Kart Tournament",
+        "location": "Pixel Bar, 25 Great George St, Leeds LS1 3AL",
+        "when": "2024-11-07 19:00",
+        "description": "Our regular Pixel Bar tournament made a return for this semester, with another closely fought Mario Kart battle, plenty of other games and delicious drinks. Whether you're a Mario Kart pro or coming along to socialise and play casually, everyone is welcome."
+    },
+    {
+        "image": "/events/events-branding-workshop.jpg",
+        "name": "Personal Branding Workshop",
+        "location": "Esther Simpson Building, Lyddon Terrace, Leeds LS2 9LA",
+        "when": "2024-11-14 13:00",
+        "description": "A workshop run by Virgin Media O2 aimed at women in tech, this was a great opportunity to learn about personal branding and career skills from experts in a leading tech company. We're passionate about supporting our members to overcome barriers."
+    },
+    {
+        "name": "Arcade Club",
+        "location": "Arcade Club, Abbey Retail Park, Savins Mill Way, Kirkstall, Leeds LS5 3RP",
+        "when": "2024-11-21 19:00",
+        "description": "A night at Europe's largest free play video arcade was a social not to be missed. With over 300 machines as well as modern consoles, it was a brilliant way to socialise and try something new... or not, if you're already a retro games fan!"
+    },
+    {
+        "name": "Fridge-to-Fridge",
+        "location": "Various locations in Hyde Park, Leeds",
+        "when": "2025-02-21 20:00",
+        "description": "Another fun instalment of our fridge-to-fridge tradition saw attendees dress as their type! As always, there were plenty of alcoholic and non-alcoholic drinks at each house and it was a great social opportunity to meet new people."
+    },
+    {
+        "name": "Pub Quiz",
+        "location": "LUU Function Room, Woodhouse, Leeds LS2 9JZ",
+        "when": "2025-03-04 19:00",
+        "description": "Our second pub quiz was as successful as the first, with fun round themes such as Geoguessr, music, logos, and the famous minigames. It was a closely fought competition with the winning team taking home \u00a350 in Nando's vouchers."
+    },
+    {
+        "image": "/events/events-bragging-rights.jpg",
+        "name": "Bragging Rights 1.0: Paintball",
+        "location": "Skirmish Paintball, Bramham Park Estate, South York Road, Leeds LS24 9NR",
+        "when": "2025-03-22 12:15",
+        "description": "Our first collaboration with Physics saw the societies going head-to-head in a paintball competition, with Computer Science being crowned the best in the building and be awarded official Bragging Rights!"
+    },
+    {
+        "image": "/events/events-agm.jpg",
+        "name": "AGM (Annual General Meeting)",
+        "location": "GR.25, Sir William Henry Bragg Building, University of Leeds, Woodhouse, Leeds LS2 9JT",
+        "when": "2025-03-25 17:30",
+        "description": "Our in-person AGM was open to all members and giving them a chance to have their say on the direction of the society, and hear from and ask questions of the candidates running in this year's elections. It was great to see so many people there!"
+    },
+    {
+        "image": "/events/events-summer-ball-2.jpg",
+        "name": "Summer Ball",
+        "location": "Royal Armouries, Armouries Drive, Leeds LS10 1LT",
+        "when": "2025-05-05 18:00",
+        "description": "Our summer ball is returning bigger and better! With a starry night theme and black tie dress code, a \u00a320 ticket will get you a welcome drink, 3-course meal, and half a bottle of wine. Bring friends and celebrate the end of the year in style! Tickets are on Engage now. Testing Our summer ball is returning bigger and better! With a starry night theme and black tie dress code, a \u00a320 ticket will get you a welcome drink,3-course meal, and half a bottle of wine. Bring friends and celebrate the end of the year in style! Tickets are on Engage now. Our summer ball is returning bigger and better! With a starry night theme and black tie dress code, a \u00a320 ticket will get you a welcome drink, 3-course meal, and half a bottle of wine. Bring friends and celebrate the end of the year in style! Tickets are on Engage now. "
+    }
+]
