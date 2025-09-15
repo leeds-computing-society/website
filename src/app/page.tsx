@@ -1,9 +1,7 @@
 "use client";
-import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-
-export default function Home()
+export default function Page()
 {
     return (
         <div className="flex flex-col grow min-[32rem]:justify-center items-center text-center text-white max-w-5xl mx-auto">
@@ -30,12 +28,5 @@ export default function Home()
                 </div>
             </div>
         </div>
-
     );
 };
-
-// <div className="flex flex-col h-full text-center text-3xl text-white">
-
-// </div>
-
-// <div className="flex flex-col text-center text-white text-3xl">

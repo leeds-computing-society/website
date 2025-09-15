@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import type { Metadata } from "next";
 import { MouseHighlight } from "./components/mouse-highlight";
 import { Header } from "./components/header";
 import { JetBrains_Mono } from "next/font/google";
@@ -13,13 +13,10 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
     title: "Leeds Computing Society",
     description: "The official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, providing plenty of activities for everyone.",
-
-
     twitter: {
         title: "Leeds Computing Society | Leeds University Union",
         description: "The official student computing society of the University of Leeds. We work with the School of Computing and local companies to run a range of fun events and socials, providing plenty of activities for everyone."
     }
-
 };
 
 export default function RootLayout({

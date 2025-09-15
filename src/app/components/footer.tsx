@@ -6,10 +6,6 @@ import { TPPLogo } from "./tpp-logo";
 export const Footer = () =>
 {
     let router = useRouter();
-    // let handleTPPClick = () =>
-    // {
-    //     window.open("https://tpp-careers.com");
-    // };
 
     return (
         <div className="flex flex-row justify-center border-t border-b border-dashed border-white/50">
@@ -66,5 +62,3 @@ export const Footer = () =>
         </div>
     );
 };
-
-//href=

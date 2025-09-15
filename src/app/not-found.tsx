@@ -31,16 +31,9 @@ export default function Home()
                     className="text-header-sm min-[32rem]:text-header-md min-[66rem]:text-header-lg"
                 />
                 <div className="text-md min-[32rem]:text-lg">
-                    It seems you are lost, traveller. Return <Link href="/" className="text-link underline">Home</Link>.
+                    It seems you are lost, traveller. Return <Link href="/" className="text-link link">Home</Link>.
                 </div>
             </div>
         </div>
-
     );
 };
-
-// <div className="flex flex-col h-full text-center text-3xl text-white">
-
-// </div>
-
-// <div className="flex flex-col text-center text-white text-3xl">

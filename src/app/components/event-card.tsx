@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export interface EventCardProperties
@@ -23,18 +24,14 @@ export const EventCard = (properties: EventCardProperties) =>
     };
 
     return (
-        <div className="flex flex-row bg-brand-primary-450/50 border-t border-l border-r border-white/50">
-            <div className="bg-brand-primary-400/50 border-r border-white/50 border-dashed">
+        <div className="flex flex-col min-[48rem]:flex-row bg-brand-primary-450/50 border-t min-[48rem]:border-l min-[48rem]:border-r border-white/50">
+            <div className="bg-brand-primary-400/50 max-[48rem]:border-b min-[48rem]:border-r border-white/50 border-dashed">
                 {properties.image != null ?
-                    <div className="w-48 border-b border-white/50 border-dashed">
-                        {/* // <div className="w-48 aspect-square"> */}
-
-
-                        <img src={properties.image}></img>
-                        {/* // </div> */}
+                    <div className="w-48 max-[48rem]:h-48 border-b border-white/50 border-dashed">
+                        <Image src={properties.image} alt="Event Logo" width={192} height={192} />
                     </div>
                     :
-                    <svg viewBox="0 0 192 192" strokeWidth="1" className="stroke-white/50 w-48 h-full">
+                    <svg viewBox="0 0 192 192" strokeWidth="1" className="stroke-white/50 max-[48rem]:h-48 w-48 h-full">
                         <line
                             x1="0"
                             y1="192"
@@ -47,7 +44,7 @@ export const EventCard = (properties: EventCardProperties) =>
             <div className="py-3 px-6 flex flex-col justify-between">
                 <div> <div className="text-lg">{properties.name}</div>
                     <div className="text-md mt-3">{properties.description}</div>
-                    {properties.link != null && properties.linkText != null && <button onClick={() => buttonClicked(properties.link)} className="border-2 border-brand-secondary-450 px-3 py-1.5 mt-3 cursor-pointer">{properties.linkText}</button>}
+                    {properties.link != null && properties.linkText != null && <button onClick={() => buttonClicked(properties.link)} className="border border-white/50 bg-brand-secondary-450/75 hover:bg-brand-secondary-500 active:bg-brand-secondary-600 transition-button px-3 py-1.5 mt-3 cursor-pointer">{properties.linkText}</button>}
                 </div>
                 <div className="flex flex-row justify-between gap-24 items-end text-md mt-3 text-white/75">
                     <div>{properties.location}</div>

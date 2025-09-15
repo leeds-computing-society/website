@@ -1,6 +1,6 @@
 import { TPPLogo } from "../components/tpp-logo";
 
-export default function Sponsors()
+export default function Page()
 {
     return (
         <div className="flex flex-row justify-center grow text-white">

@@ -3,11 +3,15 @@
 @theme inline {
     --text-sm: 0.875rem;
     --text-sm--line-height: 1rem;
-    --text-sm--font-weight: 500;
+    --text-sm--font-weight: 400;
 
     --text-base: 1rem;
     --text-base--line-height: 1.125rem;
-    --text-base--font-weight: 500;
+    --text-base--font-weight: 400;
+
+    --text-md: 1rem;
+    --text-md--line-height: 1.5rem;
+    --text-md--font-weight: 400;
 
     --text-lg: 1.25rem;
     --text-lg--line-height: auto;
@@ -105,6 +109,11 @@
     --color-brand-secondary-900: #071b21;
     --color-brand-secondary-950: #040d10;
 
+    --color-leeds-hack-2025-primary-500: #00bf63;
+
+    --color-leeds-hack-2026-primary-500: #e500ff;
+    --color-leeds-hack-2026-secondary-500: #ff00bf;
+
     --color-link: var(--color-brand-secondary-300);
 
     --blur-mouse: 4vh;
@@ -130,13 +139,8 @@ html {
         border-bottom-color 0.25s;
 }
 
-.gap-events {
-    gap: -1px;
-}
-
-.mask-event {
-    /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));*/
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+.transition-button {
+    transition: background 0.25s;
 }
 
 .link {
@@ -161,13 +165,21 @@ html {
     }
 }
 
-.link-leeds-hack {
+.link-leeds-hack-2025 {
     &::after {
-        background: #00bf63;
+        background: var(--color-leeds-hack-2025-primary-500);
     }
 }
 
-/* from-[#272F64]/50 to-[#272F64]/25 */
+.link-leeds-hack-2026 {
+    &::after {
+        background: linear-gradient(
+            120deg,
+            var(--color-leeds-hack-2026-primary-500) 0%,
+            var(--color-leeds-hack-2026-secondary-500) 100%
+        );
+    }
+}
 
 @property --tpp-brand-primary {
     syntax: "<color>";

@@ -1,8 +1,7 @@
 import { EventCard, EventCardProperties } from "../components/event-card";
 import events from "../static/events.json";
 
-
-export default function Committee()
+export default function Page()
 {
     let eventsWhenUnknown: EventCardProperties[] = events.filter((event) => event.when == null);
     let eventsWhenKnown = events.filter((event) => event.when != null);
@@ -51,9 +50,6 @@ export default function Committee()
                     }
                     <div className="shrink-0 min-[48rem]:w-6 min-[96rem]:w-48 border-t border-b border-dashed border-white/50"></div>
                 </div>
-                {/* <div className="flex flex-col max-[64rem]:grid-cols-2 max-[128rem]:grid-cols-3 grid-cols-4 min-[48rem]:px-6 min-[96rem]:px-48 my-12 border-t border-b border-dashed border-white/50">
-                    {previousEvents.map((event, index) => <EventCard key={index} {...event}></EventCard>)}
-                </div> */}
             </div>
         </div>
     );

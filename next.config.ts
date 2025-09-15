@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfiguration: NextConfig = {
+    async redirects()
+    {
+        return [
+            {
+                source: "/leedshack",
+                destination: "https://leedshack.com",
+                permanent: true
+            }
+        ];
+    },
     transpilePackages: ["three"],
     turbopack: {
         rules: {
