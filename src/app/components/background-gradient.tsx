@@ -4,8 +4,8 @@ import { ShaderMaterial } from "three";
 import { extend, useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 
-import fragmentShader from "../static/background-gradient.frag";
-import vertexShader from "../static/background-gradient.vert";
+import fragmentShader from "@/app/static/background-gradient.frag";
+import vertexShader from "@/app/static/background-gradient.vert";
 
 type Uniforms = {
     time: number;

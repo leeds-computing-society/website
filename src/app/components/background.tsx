@@ -1,16 +1,24 @@
 "use client";
 import { Canvas } from "@react-three/fiber";
-import { BackgroundGradient } from "./background-gradient";
+import { BackgroundGradient } from "@/app/components/background-gradient";
+import { useRef } from "react";
 
 export const Background = () =>
 {
+    let canvas = useRef<HTMLDivElement | null>(null);
+
     return (
-        <div className="absolute w-full h-full -z-10">
-            <Canvas className="w-full h-full"
+        <div ref={canvas} className="absolute w-full h-full -z-10">
+            <Canvas
                 gl={{
                     alpha: true,
                     antialias: false,
                     powerPreference: "high-performance"
+                }}
+                onCreated={() =>
+                {
+                    if (canvas === null) return;
+                    canvas.current?.classList.add("animation-opacity-in");
                 }}>
                 <BackgroundGradient></BackgroundGradient>
             </Canvas>

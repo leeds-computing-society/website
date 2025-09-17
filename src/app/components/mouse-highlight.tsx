@@ -24,7 +24,7 @@ export const MouseHighlight = () =>
     }, []);
 
     return (
-        <div className="absolute w-[10vh] h-[10vh] top-0 left-0 translate-[-50%] rounded-full blur-mouse bg-brand-secondary-500/50 -z-10" style={{ top: `${mousePosition.y}px`, left: `${mousePosition.x}px` }}>
+        <div className="absolute w-[10vh] h-[10vh] top-0 left-0 translate-[-50%] rounded-full blur-mouse bg-brand-secondary-500/25 -z-10" style={{ top: `${mousePosition.y}px`, left: `${mousePosition.x}px` }}>
         </div>
     );
 };

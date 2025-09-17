@@ -1,16 +1,25 @@
 [
     {
+        "image": "/events/pixel-bar-giag.jpg",
         "name": "Pixel Bar GIAG (Give It A Go)",
         "location": "Pixel Bar, LS1 3AL",
-        "description": "Give it a Go event at Pixel Bar with an organised game tournament, relaxed gaming, and socialising."
+        "when": "2025-10-09 19:00",
+        "end": "2025-10-09 23:00",
+        "description": "Try out one of our most popular events for free and meet some of your fellow students! You could get competitive in the Mario Kart tournament (with prizes!), make new friends working together in a co-op game, or just relax and enjoy the fun themed range of alcoholic and non-alcoholic drinks at Pixel Bar."
     },
     {
+        "image": "/events/capture-the-flag-giag.jpg",
+        "name": "Capture The Flag GIAG (Give It A Go)",
+        "when": "2025-10-10",
+        "hideTime": true,
+        "description": "Get an exciting taster of CompSoc's academic offering by racing against other teams in a competition to solve cyber security puzzles before everyone else. It's free with snacks provided, and there will be a range of challenges to solve for all experience levels. "
+    },
+    {
+        "image": "/events/welcome-and-intro-social.jpg",
         "name": "Welcome and Intro Social",
         "location": "Pyramid Canteen, LUU",
-        "when": "2025-09-30 19:00",
-        "description": "Short welcome talk with an introduction to the society, committee, and our plans for the year, followed by relaxed drinks and socialising at a bar.",
-        "link": "https://google.com",
-        "linkText": "Register"
+        "when": "2025-10-02 19:00",
+        "description": "Come along to our very first event of the year to meet the committee and find out what you can expect from CompSoc this year. It's the best opportunity to meet other prospective members, we've got some fun activities planned and the bar will be open for drinks."
     },
     {
         "image": "/events/events-pixel-bar.jpg",
@@ -41,7 +50,7 @@
         "description": "A four-part night with different themed alcoholic and non-alcoholic drinks at each location, it was a huge success and a great opportunity to make new friends."
     },
     {
-        "image": "/events/events-summer-ball.jpg",
+        "image": "/events/summer-ball-2024.jpg",
         "name": "Charity Summer Ball",
         "location": "Queens Hotel, New Station Street, Leeds LS1 1PJ",
         "when": "2024-05-05 18:00",
@@ -122,8 +131,8 @@
         "description": "Our second pub quiz was as successful as the first, with fun round themes such as Geoguessr, music, logos, and the famous minigames. It was a closely fought competition with the winning team taking home \u00a350 in Nando's vouchers."
     },
     {
-        "image": "/events/events-bragging-rights.jpg",
-        "name": "Bragging Rights 1.0: Paintball",
+        "image": "/events/bragging-rights-1-paintball.jpg",
+        "name": "Bragging Rights 1.0 - Paintball",
         "location": "Skirmish Paintball, Bramham Park Estate, South York Road, Leeds LS24 9NR",
         "when": "2025-03-22 12:15",
         "description": "Our first collaboration with Physics saw the societies going head-to-head in a paintball competition, with Computer Science being crowned the best in the building and be awarded official Bragging Rights!"
@@ -136,7 +145,7 @@
         "description": "Our in-person AGM was open to all members and giving them a chance to have their say on the direction of the society, and hear from and ask questions of the candidates running in this year's elections. It was great to see so many people there!"
     },
     {
-        "image": "/events/events-summer-ball-2.jpg",
+        "image": "/events/summer-ball-2025.jpg",
         "name": "Summer Ball",
         "location": "Royal Armouries, Armouries Drive, Leeds LS10 1LT",
         "when": "2025-05-05 18:00",

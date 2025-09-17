@@ -1,12 +1,26 @@
-import { EventCard, EventCardProperties } from "../components/event-card";
-import events from "../static/events.json";
+import { EventCard, EventCardProperties, EventCardPropertiesInitial, EventCardPropertiesWhenKnown } from "@/app/components/event-card";
+import events from "@/app/static/events.json";
 
 export default function Page()
 {
-    let eventsWhenUnknown: EventCardProperties[] = events.filter((event) => event.when == null);
-    let eventsWhenKnown = events.filter((event) => event.when != null);
+    let eventsWhenUnknown: EventCardProperties[] = events.filter((event) => event.when === undefined).map((event) =>
+    {
+        return {
+            ...event,
+            when: undefined,
+            end: undefined
+        };
+    });
+    let eventsWhenKnown: EventCardPropertiesInitial[] = events.filter((event) => event.when !== undefined);
 
-    let eventsParsed = eventsWhenKnown.map((event) => { return { ...event, when: new Date(event.when) }; });
+    let eventsParsed: EventCardPropertiesWhenKnown[] = eventsWhenKnown.map((event) =>
+    {
+        return {
+            ...event,
+            when: new Date(event.when),
+            end: event.end !== undefined ? new Date(event.end) : undefined,
+        };
+    });
     eventsParsed.sort((x, y) => y.when.getTime() - x.when.getTime());
 
     let now = new Date();
@@ -15,6 +29,7 @@ export default function Page()
 
     return (
         <div className="flex flex-row justify-center grow text-white">
+            <h1 className="hidden">Events</h1>
             <div className="flex flex-col mx-6 min-[64rem]:mx-12 min-[80rem]:mx-48 grow max-w-[96rem] border-l border-r border-dashed border-white/50">
                 <div className="py-3 px-6 min-[96rem]:px-48 mt-12 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
                     Upcoming events

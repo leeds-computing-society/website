@@ -143,6 +143,26 @@ html {
     transition: background 0.25s;
 }
 
+.transition-sponsor {
+    transition:
+        background 0.5s,
+        fill 0.5s;
+}
+
+.animation-opacity-in {
+    animation-name: opacity-in;
+    animation-duration: 0.5s;
+}
+
+@keyframes opacity-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .link {
     cursor: pointer;
     text-decoration: none;
@@ -178,29 +198,5 @@ html {
             var(--color-leeds-hack-2026-primary-500) 0%,
             var(--color-leeds-hack-2026-secondary-500) 100%
         );
-    }
-}
-
-@property --tpp-brand-primary {
-    syntax: "<color>";
-    inherits: false;
-    initial-value: #272f6480;
-}
-
-@property --tpp-brand-secondary {
-    syntax: "<color>";
-    inherits: false;
-    initial-value: #272f6440;
-}
-
-.bg-tpp {
-    background: linear-gradient(120deg, var(--tpp-brand-primary), var(--tpp-brand-secondary));
-    transition:
-        --tpp-brand-primary 0.25s,
-        --tpp-brand-secondary 0.25s;
-
-    &:hover {
-        --tpp-brand-primary: #272f64;
-        --tpp-brand-secondary: #272f64;
     }
 }

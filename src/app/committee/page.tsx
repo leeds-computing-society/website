@@ -1,10 +1,11 @@
-import { CommitteeCard } from "../components/committee-card";
-import committee from "../static/committee.json";
+import { CommitteeCard } from "@/app/components/committee-card";
+import committee from "@/app/static/committee.json";
 
 export default function Page()
 {
     return (
         <div className="flex flex-row justify-center grow text-white">
+            <h1 className="hidden">Committee</h1>
             <div className="flex flex-col mx-6 min-[64rem]:mx-12 min-[80rem]:mx-48 grow max-w-[96rem] border-l border-r border-dashed border-white/50">
                 <div className="py-3 px-6 min-[96rem]:px-48 mt-12 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
                     Meet the committee

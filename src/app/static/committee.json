@@ -1,60 +1,59 @@
 [
     {
-        "image": "/committee/miranda-gough.jpg",
+        "image": "/committee/miranda-gough.webp",
         "name": "Miranda Gough",
         "role": "President",
-        "roleDescription": "Chairs the committee, coordinates the society's activities, and communicates with sponsors and the School of Computing."
+        "roleDescription": "Chairs the committee, coordinates the society's activities and events, and manages partnerships with external organisations and the School of Computer Science."
     },
     {
-        "image": "/committee/eschal-najmi.jpg",
+        "image": "/committee/eschal-najmi.webp",
         "name": "Eschal Najmi",
         "role": "Treasurer",
-        "roleDescription": "Manages the budget and finances of the society, and ensures that events are fully funded and run smoothly."
+        "roleDescription": "Manages the budget and finances of the society, oversees sponsorship contracts, and ensures that events are fully funded and run smoothly."
     },
     {
-        "image": "/committee/paige-uppal.jpg",
+        "image": "/committee/paige-uppal.webp",
         "name": "Paige Uppal",
         "role": "Secretary",
-        "roleDescription": "Organises the day-to-day running of the committee, manages tasks, and leads admininstrative activities."
+        "roleDescription": "Manages all branding, communications, and society admin, such as LinkedIn, emails, social media, and merchandise."
     },
     {
-        "image": "/committee/shay-odonnell.jpg",
+        "image": "/committee/shay-odonnell.webp",
         "name": "Shay O'Donnell",
         "role": "Social Secretary",
-        "roleDescription": "Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
+        "roleDescription": "Organises and runs social events such as weekly pub socials, quizzes, fridge-to-fridges, non-alcoholic socials, and the annual Summer Ball."
     },
     {
-        "image": "/committee/alex-mccall.jpg",
+        "image": "/committee/alex-mccall.webp",
         "name": "Alex McCall",
         "role": "Social Secretary",
-        "roleDescription": "Organises and runs social events for members such as pub quizzes, fridge-to-fridges, and the famous annual Summer Ball."
+        "roleDescription": "Organises and runs social events such as weekly pub socials, quizzes, fridge-to-fridges, non-alcoholic socials, and the annual Summer Ball."
     },
     {
-        "image": "/committee/sarah-phiri.jpg",
+        "image": "/committee/sarah-phiri.webp",
         "name": "Sarah Phiri",
         "role": "Equality, Diversity and Inclusion Secretary",
-        "roleDescription": "Leads efforts to ensure the society is inclusive and welcoming to all students, and manages initiatives to promote diversity."
+        "roleDescription": "Ensures the society is inclusive and welcoming to all students, handles member welfare, and runs monthly socials and career events for female and non-binary members."
     },
     {
-        "image": "/committee/archie-simpson.jpg",
+        "image": "/committee/archie-simpson.webp",
         "name": "Archie Simpson",
         "role": "Academic Events Secretary",
-        "roleDescription": "Organises and runs events such as industry talks and workshops, and coordinates industry collaborations."
+        "roleDescription": "Organises and runs academic events such as fortnightly industry talks, Capture the Flag challenges, and international programming competitions."
     },
     {
-        "image": "/committee/nalani-swan.jpg",
+        "image": "/committee/nalani-swan.webp",
         "name": "Nalani Swan",
         "role": "Social Media Officer",
-        "roleDescription": "Maintains the society's social media presence across platforms to update members on events, news, and opportunities."
+        "roleDescription": "Maintains the society's social media presence across Instagram and WhatsApp to update members on events, news, and opportunities."
     },
     {
-        "image": "/committee/oleksandr-tunik.jpg",
+        "image": "/committee/oleksandr-tunik.webp",
         "name": "Oleksandr (Alex) Tunik",
         "role": "Gaming and Interests Secretary",
-        "roleDescription": "Organises and runs social events linked to the interests and hobbies of members, such as Pixel Bar gaming tournaments."
+        "roleDescription": "Organises and runs social events linked to the hobbies of members, such as Pixel Bar and LUU Crossroads gaming socials, as well as managing the society Discord server."
     },
     {
-        "image": "/committee/george-hester.jpg",
         "name": "George Hester",
         "role": "Web Development Officer",
         "roleDescription": "Works on the general development of the Leeds Computing Society website and controls development aspects of the online presence."

@@ -79,7 +79,7 @@ export const Header = () =>
     }, []);
 
     return (
-        <div className="fixed h-14 w-full text-md text-white">
+        <div className="fixed h-14 w-full text-md z-50 text-white">
             <div style={{ WebkitBackdropFilter: "blur(48px)", backdropFilter: "blur(48px)" }} className="h-14 bg-brand-primary-500/50 border-b border-white/50">
                 <div className="h-full flex justify-center items-center gap-6 max-[48rem]:hidden">
                     {headerItems.map((item, index) => <Link key={index} href={item.link} className={HeaderItemTypeMap[item.type]}>{item.text}</Link>)}
