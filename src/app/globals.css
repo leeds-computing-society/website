@@ -111,8 +111,9 @@
 
     --color-leeds-hack-2025-primary-500: #00bf63;
 
-    --color-leeds-hack-2026-primary-500: #e500ff;
-    --color-leeds-hack-2026-secondary-500: #ff00bf;
+    /* --color-leeds-hack-2026-primary-500: #e500ff;
+    --color-leeds-hack-2026-secondary-500: #ff00bf; */
+    --color-leeds-hack-2026-primary-500: #8c52ff;
 
     --color-link: var(--color-brand-secondary-300);
 
@@ -140,7 +141,9 @@ html {
 }
 
 .transition-button {
-    transition: background 0.25s;
+    transition:
+        background 0.25s,
+        color 0.25s;
 }
 
 .transition-sponsor {
@@ -184,7 +187,7 @@ html {
         width: 100%;
     }
 }
-
+/*
 .link-leeds-hack-2025 {
     &::after {
         background: var(--color-leeds-hack-2025-primary-500);
@@ -198,5 +201,38 @@ html {
             var(--color-leeds-hack-2026-primary-500) 0%,
             var(--color-leeds-hack-2026-secondary-500) 100%
         );
+    }
+} */
+
+.link-shown {
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--color-brand-secondary-500);
+    }
+}
+
+.link-leeds-hack-2025 {
+    &::after {
+        background: var(--color-leeds-hack-2025-primary-500);
+    }
+}
+
+.link-leeds-hack-2026 {
+    &::after {
+        background: var(--color-leeds-hack-2026-primary-500);
+        /* background: linear-gradient(
+            120deg,
+            var(--color-leeds-hack-2026-primary-500) 0%,
+            var(--color-leeds-hack-2026-secondary-500) 100%
+        ); */
     }
 }

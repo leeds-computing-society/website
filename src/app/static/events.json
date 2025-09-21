@@ -10,14 +10,14 @@
     {
         "image": "/events/capture-the-flag-giag.jpg",
         "name": "Capture The Flag GIAG (Give It A Go)",
-        "when": "2025-10-10",
-        "hideTime": true,
+        "location": "Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-10-07 18:00",
         "description": "Get an exciting taster of CompSoc's academic offering by racing against other teams in a competition to solve cyber security puzzles before everyone else. It's free with snacks provided, and there will be a range of challenges to solve for all experience levels. "
     },
     {
         "image": "/events/welcome-and-intro-social.jpg",
         "name": "Welcome and Intro Social",
-        "location": "Pyramid Canteen, LUU",
+        "location": "Pyramid Canteen, LUU, LS2 9JZ",
         "when": "2025-10-02 19:00",
         "description": "Come along to our very first event of the year to meet the committee and find out what you can expect from CompSoc this year. It's the best opportunity to meet other prospective members, we've got some fun activities planned and the bar will be open for drinks."
     },

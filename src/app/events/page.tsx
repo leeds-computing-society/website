@@ -21,18 +21,18 @@ export default function Page()
             end: event.end !== undefined ? new Date(event.end) : undefined,
         };
     });
-    eventsParsed.sort((x, y) => y.when.getTime() - x.when.getTime());
+    eventsParsed.sort((x, y) => x.when.getTime() - y.when.getTime());
 
     let now = new Date();
-    let upcomingEvents = eventsWhenUnknown.concat(eventsParsed.filter((event) => event.when.getTime() > now.getTime()));
+    let upcomingEvents = [...eventsParsed.filter((event) => event.when.getTime() > now.getTime()), ...eventsWhenUnknown];
     let previousEvents = eventsParsed.filter((event) => event.when.getTime() <= now.getTime());
+    previousEvents.sort((x, y) => y.when.getTime() - x.when.getTime());
 
     return (
         <div className="flex flex-row justify-center grow text-white">
-            <h1 className="hidden">Events</h1>
             <div className="flex flex-col mx-6 min-[64rem]:mx-12 min-[80rem]:mx-48 grow max-w-[96rem] border-l border-r border-dashed border-white/50">
                 <div className="py-3 px-6 min-[96rem]:px-48 mt-12 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
-                    Upcoming events
+                    Upcoming Events
                 </div>
                 <div className="flex flex-row my-12">
                     <div className="shrink-0 min-[48rem]:w-6 min-[96rem]:w-48 border-t border-b border-dashed border-white/50"></div>
@@ -49,7 +49,7 @@ export default function Page()
                     <div className="shrink-0 min-[48rem]:w-6 min-[96rem]:w-48 border-t border-b border-dashed border-white/50"></div>
                 </div>
                 <div className="py-3 px-6 min-[96rem]:px-48 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
-                    Previous events
+                    Previous Events
                 </div>
                 <div className="flex flex-row my-12">
                     <div className="shrink-0 min-[48rem]:w-6 min-[96rem]:w-48 border-t border-b border-dashed border-white/50"></div>
