@@ -3,22 +3,22 @@
         "image": "/events/pixel-bar-giag.jpg",
         "name": "Pixel Bar GIAG (Give It A Go)",
         "location": "Pixel Bar, LS1 3AL",
-        "when": "2025-10-09 18:00 UTC",
-        "end": "2025-10-09 22:00 UTC",
+        "when": "2025-10-09T19:00:00+01:00",
+        "end": "2025-10-09T23:00:00+01:00",
         "description": "Try out one of our most popular events for free and meet some of your fellow students! You could get competitive in the Mario Kart tournament (with prizes!), make new friends working together in a co-op game, or just relax and enjoy the fun themed range of alcoholic and non-alcoholic drinks at Pixel Bar."
     },
     {
         "image": "/events/capture-the-flag-giag.jpg",
         "name": "Capture The Flag GIAG (Give It A Go)",
         "location": "Sir William Henry Bragg Building, LS2 9JT",
-        "when": "2025-10-07 17:00 UTC",
+        "when": "2025-10-07T18:00:00+01:00",
         "description": "Get an exciting taster of CompSoc's academic offering by racing against other teams in a competition to solve cyber security puzzles before everyone else. It's free with snacks provided, and there will be a range of challenges to solve for all experience levels. "
     },
     {
         "image": "/events/welcome-and-intro-social.jpg",
         "name": "Welcome and Intro Social",
         "location": "Pyramid Canteen, LUU, LS2 9JZ",
-        "when": "2025-10-02 18:00 UTC",
+        "when": "2025-10-02T19:00:00+01:00",
         "description": "Come along to our very first event of the year to meet the committee and find out what you can expect from CompSoc this year. It's the best opportunity to meet other prospective members, we've got some fun activities planned and the bar will be open for drinks."
     },
     {
