@@ -1,6 +1,6 @@
-"use client";
+// "use client";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 export interface EventCardPropertiesInitial
 {
@@ -43,7 +43,7 @@ export interface EventCardProperties
 
 export const EventCard = (properties: EventCardProperties) =>
 {
-    let router = useRouter();
+    // let router = useRouter();
 
     let when: string = "TBA";
     let end: string | undefined = undefined;
@@ -81,11 +81,11 @@ export const EventCard = (properties: EventCardProperties) =>
         };
     };
 
-    let buttonClicked = (link: string | undefined) =>
-    {
-        if (link === undefined) return;
-        router.push(link);
-    };
+    // let buttonClicked = (link: string | undefined) =>
+    // {
+    //     if (link === undefined) return;
+    //     router.push(link);
+    // };
 
     return (
         <div className="flex flex-col min-[48rem]:flex-row bg-brand-primary-450/50 border-t min-[48rem]:border-l min-[48rem]:border-r border-white/50">
@@ -111,7 +111,7 @@ export const EventCard = (properties: EventCardProperties) =>
                 <div>
                     <div className="text-lg">{properties.name}</div>
                     <div className="text-md mt-3">{properties.description}</div>
-                    {properties.link !== undefined && properties.linkText !== undefined && <button onClick={() => buttonClicked(properties.link)} className="border border-white/50 bg-brand-secondary-450/75 hover:bg-brand-secondary-500 active:bg-brand-secondary-600 transition-button px-3 py-1.5 mt-3 cursor-pointer">{properties.linkText}</button>}
+                    {/* {properties.link !== undefined && properties.linkText !== undefined && <button onClick={() => buttonClicked(properties.link)} className="border border-white/50 bg-brand-secondary-450/75 hover:bg-brand-secondary-500 active:bg-brand-secondary-600 transition-button px-3 py-1.5 mt-3 cursor-pointer">{properties.linkText}</button>} */}
                 </div>
                 <div className="flex flex-row justify-between gap-12 items-end text-md mt-3 text-white/75">
                     {

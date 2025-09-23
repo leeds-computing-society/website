@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface CommitteeCardProperties
 {
     image?: string | undefined;
@@ -39,7 +41,8 @@ export const CommitteeCard = (properties: CommitteeCardProperties) =>
       `}>
             <div className="bg-brand-primary-400/50 w-full aspect-square border-b border-dashed border-white/50">
                 {properties.image !== undefined ?
-                    <img alt={`LeedsHack Committee Member ${properties.name}`} src={properties.image}></img>
+                    <Image src={properties.image} alt={`LeedsHack Committee Member ${properties.name}`} width={512} height={512} />
+                    // <img alt={`LeedsHack Committee Member ${properties.name}`} src={properties.image}></img>
                     :
                     <svg viewBox="0 0 256 256" strokeWidth="1" className="w-full h-full stroke-white/50">
                         <line
