@@ -53,7 +53,8 @@ export const EventCard = (properties: EventCardProperties) =>
         if (properties.hideTime === true) when = properties.when.toLocaleString("en-GB", {
             day: "numeric",
             month: "long",
-            year: "numeric"
+            year: "numeric",
+            timeZone: "Europe/London"
         });
 
         if (properties.hideTime !== true) when = properties.when.toLocaleString("en-GB", {
@@ -61,14 +62,16 @@ export const EventCard = (properties: EventCardProperties) =>
             month: "long",
             year: "numeric",
             hour: "2-digit",
-            minute: "2-digit"
+            minute: "2-digit",
+            timeZone: "Europe/London"
         });
 
         if (properties.end !== undefined)
         {
             if (properties.when.toDateString() === properties.end.toDateString()) end = properties.end.toLocaleString("en-GB", {
                 hour: "2-digit",
-                minute: "2-digit"
+                minute: "2-digit",
+                timeZone: "Europe/London"
             });
 
             if (properties.when.toDateString() !== properties.end.toDateString()) end = properties.end.toLocaleString("en-GB", {
@@ -76,7 +79,8 @@ export const EventCard = (properties: EventCardProperties) =>
                 month: "long",
                 year: "numeric",
                 hour: "2-digit",
-                minute: "2-digit"
+                minute: "2-digit",
+                timeZone: "Europe/London"
             });
         };
     };
