@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap
         {
             url: "https://luucompsoc.co.uk",
             lastModified: new Date(),
-            changeFrequency: "weekly",
+            changeFrequency: "daily",
             priority: 1
         },
         {
@@ -18,13 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap
         {
             url: "https://luucompsoc.co.uk/committee",
             lastModified: new Date(),
-            changeFrequency: "monthly",
+            changeFrequency: "daily",
             priority: 0.8
         },
         {
             url: "https://luucompsoc.co.uk/sponsors",
             lastModified: new Date(),
-            changeFrequency: "monthly",
+            changeFrequency: "daily",
             priority: 0.8
         },
         {
@@ -32,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap
             lastModified: new Date(),
             changeFrequency: "daily",
             priority: 0.9
+        },
+        {
+            url: "https://luucompsoc.co.uk/leedshack",
+            lastModified: new Date(),
+            changeFrequency: "daily",
+            priority: 0.4
         }
     ];
 };
