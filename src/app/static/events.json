@@ -1,18 +1,60 @@
 [
     {
+        "image": "/events/events-fridge-to-fridge.jpg",
+        "name": "Weekly Pub Social",
+        "location": "Library Pub, LS2 3AP",
+        "when": "2025-10-14T19:30:00+01:00",
+        "description": "Every Tuesday we meet at the Library pub for a relaxed catch-up - everyone is welcome! Come to meet new people and feel free to ask us any questions about academic or university life. The pub has great deals on food and drinks so it's budget-friendly."
+    },
+    {
+        "name": "Fortnightly Industry Talk",
+        "location": "Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-10-21T18:00:00+01:00",
+        "description": "Every other Tuesday we host a guest speaker working in the technology industry to share their career journey and exclusive insights into their work. It's a brilliant opportunity to network and inform your future career plans.",
+        "link": "https://engage.luu.org.uk/events/RQ3QD/pexip-industry-talk-with-sophia-manalo",
+        "linkText": "Get Your Ticket"
+    },
+    {
+        "name": "Monthly Crossroads Gaming Social",
+        "location": "Crossroads, LUU, LS2 9JZ",
+        "when": "2025-10-22T18:00:00+01:00",
+        "description": "On the 2nd Friday of every month we host a free inclusive gaming social in Crossroads in LUU. Come along to socialise and play your favourite games, or maybe some new ones! Keep an eye on the Discord for more information."
+    },
+    {
+        "name": "Monthly Women and Non-Binary Social",
+        "location": "Room 2 (Yellow) (Floor 2), LUU, LS2 9JZ",
+        "when": "2025-10-13T20:00:00+01:00",
+        "description": [
+            "Non-alcoholic paint and sip with art supplies and snacks provided for free!",
+            "If you identify as female or non-binary, come to our monthly free inclusive social at LUU where we chat and do some fun and relaxed activities such as arts and crafts."
+        ],
+        "link": "https://engage.luu.org.uk/events/C73G2/paint-and-sip-women-non-binary-compsoc-social",
+        "linkText": "Get Your Free Ticket"
+    },
+    {
+        "name": "UKIEPC (UK and Ireland Programming Contest)",
+        "description": "The University of Leeds is hosting the UK and Ireland Programming Contest (one of the subregional competitions for the International Collegiate Programming Contest), where you can compete for a chance to go to Germany for the NWERC (Northwestern Europe European Regional Contest)! Information on how to register a team is on Engage.",
+        "link": "https://engage.luu.org.uk/events/6TQ3V/ukiepc-uk-and-ireland-programming-contest-2025",
+        "linkText": "Register on Engage"
+    },
+    {
         "image": "/events/pixel-bar-giag.jpg",
         "name": "Pixel Bar GIAG (Give It A Go)",
         "location": "Pixel Bar, LS1 3AL",
         "when": "2025-10-09T19:00:00+01:00",
         "end": "2025-10-09T23:00:00+01:00",
-        "description": "Try out one of our most popular events for free and meet some of your fellow students! You could get competitive in the Mario Kart tournament (with prizes!), make new friends working together in a co-op game, or just relax and enjoy the fun themed range of alcoholic and non-alcoholic drinks at Pixel Bar."
+        "description": "Try out one of our most popular events for free and meet some of your fellow students! You could get competitive in the Mario Kart tournament (with prizes!), make new friends working together in a co-op game, or just relax and enjoy the fun themed range of alcoholic and non-alcoholic drinks at Pixel Bar.",
+        "link": "https://engage.luu.org.uk/events/PJ4F7/pixel-bar-social-giag",
+        "linkText": "Get Your Free Ticket"
     },
     {
         "image": "/events/capture-the-flag-giag.jpg",
         "name": "Capture The Flag GIAG (Give It A Go)",
         "location": "Sir William Henry Bragg Building, LS2 9JT",
         "when": "2025-10-07T18:00:00+01:00",
-        "description": "Get an exciting taster of CompSoc's academic offering by racing against other teams in a competition to solve cyber security puzzles before everyone else. It's free with snacks provided, and there will be a range of challenges to solve for all experience levels. "
+        "description": "Get an exciting taster of CompSoc's academic offering by racing against other teams in a competition to solve cyber security puzzles before everyone else. It's free with snacks provided, and there will be a range of challenges to solve for all experience levels.",
+        "link": "https://engage.luu.org.uk/events/GPHX7/capture-the-flag-academic-giag",
+        "linkText": "Get Your Free Ticket"
     },
     {
         "image": "/events/welcome-and-intro-social.jpg",

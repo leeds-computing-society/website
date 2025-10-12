@@ -57,7 +57,7 @@ export const Footer = () =>
                             <Link href="https://tpp-careers.com" className="px-6 cursor-pointer transition-sponsor border-b border-dashed border-white/50 bg-brand-primary-450/50 hover:bg-[#272f64] fill-white" >
                                 <TPPLogo className="my-6 mx-auto h-8"></TPPLogo>
                             </Link>
-                            <Link href="https://www.janestreet.com" className="px-6 cursor-pointer transition-sponsor border-b border-dashed border-white/50 bg-brand-primary-450/50 hover:bg-[#0B419E] fill-white" >
+                            <Link href="https://www.janestreet.com/campus" className="px-6 cursor-pointer transition-sponsor border-b border-dashed border-white/50 bg-brand-primary-450/50 hover:bg-[#0B419E] fill-white" >
                                 <JaneStreetLogo className="my-6 mx-auto h-9"></JaneStreetLogo>
                             </Link>
                         </div>

@@ -1,6 +1,5 @@
-// "use client";
 import Image from "next/image";
-// import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export interface EventCardPropertiesInitial
 {
@@ -9,7 +8,7 @@ export interface EventCardPropertiesInitial
     location?: string | undefined;
     when: string;
     end?: string | undefined;
-    description: string;
+    description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
     hideTime?: boolean | undefined;
@@ -22,7 +21,7 @@ export interface EventCardPropertiesWhenKnown
     location?: string | undefined;
     when: Date;
     end?: Date | undefined;
-    description: string;
+    description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
     hideTime?: boolean | undefined;
@@ -35,7 +34,7 @@ export interface EventCardProperties
     location?: string | undefined;
     when?: Date | undefined;
     end?: Date | undefined;
-    description: string;
+    description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
     hideTime?: boolean | undefined;
@@ -43,8 +42,6 @@ export interface EventCardProperties
 
 export const EventCard = (properties: EventCardProperties) =>
 {
-    // let router = useRouter();
-
     let when: string = "TBA";
     let end: string | undefined = undefined;
 
@@ -85,12 +82,6 @@ export const EventCard = (properties: EventCardProperties) =>
         };
     };
 
-    // let buttonClicked = (link: string | undefined) =>
-    // {
-    //     if (link === undefined) return;
-    //     router.push(link);
-    // };
-
     return (
         <div className="flex flex-col min-[48rem]:flex-row bg-brand-primary-450/50 border-t min-[48rem]:border-l min-[48rem]:border-r border-white/50">
             <div className="bg-brand-primary-400/50 max-[48rem]:border-b min-[48rem]:border-r border-white/50 border-dashed">
@@ -114,8 +105,17 @@ export const EventCard = (properties: EventCardProperties) =>
             <div className="py-3 px-6 flex flex-col justify-between">
                 <div>
                     <div className="text-lg">{properties.name}</div>
-                    <div className="text-md mt-3">{properties.description}</div>
-                    {/* {properties.link !== undefined && properties.linkText !== undefined && <button onClick={() => buttonClicked(properties.link)} className="border border-white/50 bg-brand-secondary-450/75 hover:bg-brand-secondary-500 active:bg-brand-secondary-600 transition-button px-3 py-1.5 mt-3 cursor-pointer">{properties.linkText}</button>} */}
+                    {
+                        typeof properties.description === "string"
+                            ?
+                            <div className="text-md mt-3">{properties.description}</div>
+                            :
+                            properties.description.map((paragraph, index) => <div key={index} className="text-md mt-3">{paragraph}</div>)
+                    }
+                    {
+                        (properties.link !== undefined && properties.linkText !== undefined) &&
+                        <Link className="block text-center mt-3 px-3 py-2 border transition-button bg-white/10 border-white/50 hover:bg-brand-secondary-500 cursor-pointer" href={properties.link}>{properties.linkText}</Link>
+                    }
                 </div>
                 <div className="flex flex-row justify-between gap-12 items-end text-md mt-3 text-white/75">
                     {

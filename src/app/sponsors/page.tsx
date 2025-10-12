@@ -28,7 +28,7 @@ export default function Page()
                     </div>
                 </div>
                 <div className="py-6 px-6 min-[96rem]:px-48 mb-12 text-md border-b border-white/50">
-                    <p><Link href="https://www.janestreet.com" className="link link-shown">Jane Street</Link></p>
+                    <p><Link href="https://www.janestreet.com/campus" className="link link-shown">Jane Street</Link> is a global trading firm with offices in New York, London, Hong Kong, Singapore, and Amsterdam. Our approach is rooted in technology and rigorous quantitative analysis, but our success is driven by our people.We are always recruiting top candidates, and we invest heavily in teaching and training. Our summer internships give you a real sense of working at Jane Street full-time. No finance experience needed. We look for a passion for critical thinking and creative problem-solving - people like you!</p>
                 </div>
             </div>
         </div>
