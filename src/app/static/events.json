@@ -7,12 +7,17 @@
         "description": "Every Tuesday we meet at the Library pub for a relaxed catch-up - everyone is welcome! Come to meet new people and feel free to ask us any questions about academic or university life. The pub has great deals on food and drinks so it's budget-friendly."
     },
     {
-        "name": "Fortnightly Industry Talk",
-        "location": "Sir William Henry Bragg Building, LS2 9JT",
+        "image": "/events/events-industry-talk-pexip.jpg",
+        "name": "Fortnightly Industry Talk (Pexip)",
+        "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
         "when": "2025-10-21T18:00:00+01:00",
-        "description": "Every other Tuesday we host a guest speaker working in the technology industry to share their career journey and exclusive insights into their work. It's a brilliant opportunity to network and inform your future career plans.",
+        "end": "2025-10-21T18:30:00+01:00",
+        "description": [
+            "Join us on October 21st for an exciting talk featuring Pexip, a leading video conferencing company based in Norway!",
+            "We'll be hearing from Sophia Manalo, one of Pexip's Quality Assurance Engineers, as she shares her journey in tech and insights from her experience in the industry. You'll also have the chance to ask her any questions you may have."
+        ],
         "link": "https://engage.luu.org.uk/events/RQ3QD/pexip-industry-talk-with-sophia-manalo",
-        "linkText": "Get Your Ticket"
+        "linkText": "Get Your Free Ticket"
     },
     {
         "name": "Monthly Crossroads Gaming Social",
