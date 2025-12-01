@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 
 export const defaultMetadata: Metadata = {
     title: "Leeds Computing Society",
-    keywords: ["Leeds Computing Society", "LUUCompSoc", "CompSoc", "Computing Society", "University of Leeds", "School of Computing", "LUU", "Leeds University Union", "LeedsHack", "LeedsHack 2026", "LeedsHack 2025", "Hackathon", "Leeds"],
-    description: "The official student computer science society of the University of Leeds. We work with the School of Computing and industry to run a range of academic events and socials, so there's something for everyone.",
+    keywords: ["Leeds Computing Society", "LUUCompSoc", "CompSoc", "Computing Society", "University of Leeds", "School of Computing", "School of Computer Science", "LUU", "Leeds University Union", "LeedsHack", "LeedsHack 2026", "LeedsHack 2025", "Hackathon", "Leeds"],
+    description: "The official student computer science society of the University of Leeds. We work with the School of Computer Science and industry to run a range of academic events and socials, so there's something for everyone.",
     applicationName: "Leeds Computing Society",
     authors: {
         name: "Leeds Computing Society"
@@ -33,7 +33,7 @@ export const defaultMetadata: Metadata = {
     },
     twitter: {
         title: "Leeds Computing Society | Leeds University Union",
-        description: "The official student computer science society of the University of Leeds. We work with the School of Computing and industry to run a range of academic events and socials, so there's something for everyone.",
+        description: "The official student computer science society of the University of Leeds. We work with the School of Computer Science and industry to run a range of academic events and socials, so there's something for everyone.",
     },
     robots: {
         index: true,

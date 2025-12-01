@@ -1,34 +1,64 @@
 [
     {
-        "image": "/events/events-fridge-to-fridge.jpg",
+        "image": "/events/monthly-crossroads-gaming-social.jpg",
+        "name": "Monthly Crossroads Gaming Social",
+        "location": "Crossroads, LUU, LS2 9JZ",
+        "when": "2025-12-12T17:00:00",
+        "description": "On the 2nd Friday of every month we host a free inclusive gaming social in Crossroads in LUU. Come along to socialise and play your favourite games, or maybe some new ones! Keep an eye on the Discord for more information."
+    },
+    {
+        "image": "/events/weekly-pub-social.jpg",
         "name": "Weekly Pub Social",
         "location": "Library Pub, LS2 3AP",
-        "when": "2025-10-14T19:30:00+01:00",
+        "when": "2025-12-02T19:30:00",
         "description": "Every Tuesday we meet at the Library pub for a relaxed catch-up - everyone is welcome! Come to meet new people and feel free to ask us any questions about academic or university life. The pub has great deals on food and drinks so it's budget-friendly."
     },
     {
-        "name": "Women & Non-binary Social: How To Secure A Role In Tech Workshop",
+        "image": "/events/ou-est-le-poulet.jpg",
+        "name": "Où Est Le Poulet",
+        "location": "The Hedley Verity - Disco Spoons, LS1 3HQ",
+        "when": "2025-12-06T18:00:00",
+        "description": [
+            "Team up (4-6 people) and hunt down two of our committee members, disguised as chickens, hiding in a pub somewhere in Leeds! In true CompSoc fashion, our crack engineering team has vibe-coded the ultimate experience, complete with a live leaderboard and a battle royale-style shrinking map.",
+            "Finding the chickens isn't the only way to win. Complete missions along the way to claw back points and fight for the top spot. One rule: every pub you enter, every teammate drinks. Coming solo or in a small group? No worries, we'll sort everyone into teams at the start."
+        ],
+        "link": "https://engage.luu.org.uk/events/MYFCY/ou-est-le-poulet",
+        "linkText": "Get Your Ticket"
+    },
+    {
+        "image": "/events/women-and-non-binary.jpg",
+        "name": "Monthly Women and Non-Binary Social - How To Secure A Role In Tech Workshop",
         "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
         "when": "2025-11-03T18:30:00",
         "end": "2025-11-03T20:30:00",
         "description": [
-            "This workshop is exclusively for women and non-binary members.",
-            "Join us for a workshop with Jade Wright to learn how to secure a role in tech - whether it's an internship, spring week, year placement, or graduate scheme."
+            "Join us for a workshop with Jade Wright to learn how to secure a role in tech - whether it's an internship, spring week, year placement, or graduate scheme.",
+            "This event is exclusively for women and non-binary members."
         ]
     },
     {
-        "name": "Fridge 2 Fridge",
-        "location": "Announced Soon",
-        "when": "2025-11-07T20:00:00",
-        "end": "2025-11-07T23:59:00",
+        "image": "/events/women-and-non-binary.jpg",
+        "name": "Monthly Women and Non-Binary Social - Paint and Sip",
+        "location": "Room 2 (Yellow) (Floor 2), LUU, LS2 9JZ",
+        "when": "2025-10-13T20:00:00+01:00",
         "description": [
-            "The ultimate CompSoc social returns — four houses, four drinks, one unforgettable night.",
-            "Think pub craw... but better. Why? Because you don't have to buy things, just a ticket."
+            "Non-alcoholic paint and sip with art supplies and snacks provided for free!",
+            "If you identify as female or non-binary, come to our monthly free inclusive social at LUU where we chat and do some fun and relaxed activities such as arts and crafts.",
+            "This event is exclusively for women and non-binary members."
         ],
-        "link": "https://engage.luu.org.uk/events/RJMJK/fridge2fridge-nov-2025",
-        "linkText": "Get Your Ticket"
+        "link": "https://engage.luu.org.uk/events/C73G2/paint-and-sip-women-non-binary-compsoc-social",
+        "linkText": "Get Your Free Ticket"
     },
     {
+        "image": "/events/trackr.jpg",
+        "name": "CV Workshop (Trackr)",
+        "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-11-25T18:00:00",
+        "end": "2025-11-25T19:30:00",
+        "description": "Join Trackr, the UK's leading internship application tracker, for an interactive CV Workshop designed to help you stand out in competitive finance and technology applications."
+    },
+    {
+        "image": "/events/nextflow.jpg",
         "name": "BioComputational Pipelines Workshop (Nextflow)",
         "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
         "when": "2025-11-11T18:00:00",
@@ -51,23 +81,28 @@
         "linkText": "Get Your Free Ticket"
     },
     {
-        "name": "Monthly Crossroads Gaming Social",
-        "location": "Crossroads, LUU, LS2 9JZ",
-        "when": "2025-10-22T18:00:00+01:00",
-        "description": "On the 2nd Friday of every month we host a free inclusive gaming social in Crossroads in LUU. Come along to socialise and play your favourite games, or maybe some new ones! Keep an eye on the Discord for more information."
+        "image": "/events/grounded-and-co.jpg",
+        "name": "Coffee and Games",
+        "location": "Grounded & Co, LS2 8JP",
+        "when": "2025-11-19T14:30:00",
+        "end": "2025-11-19T16:30:00",
+        "description": "Need some help procrastinating coursework? Come hang out on the first floor of Grounded & Co, where we've got a comfy space all to ourselves. Bring your laptop if you want to get some work done, or just come for the company and a hot drink."
     },
     {
-        "name": "Monthly Women and Non-Binary Social",
-        "location": "Room 2 (Yellow) (Floor 2), LUU, LS2 9JZ",
-        "when": "2025-10-13T20:00:00+01:00",
+        "image": "/events/fridge-to-fridge.jpg",
+        "name": "Fridge to Fridge",
+        "location": "Announced On Socials",
+        "when": "2025-11-07T20:00:00",
+        "end": "2025-11-07T23:59:00",
         "description": [
-            "Non-alcoholic paint and sip with art supplies and snacks provided for free!",
-            "If you identify as female or non-binary, come to our monthly free inclusive social at LUU where we chat and do some fun and relaxed activities such as arts and crafts."
+            "The ultimate CompSoc social returns — four houses, four drinks, one unforgettable night.",
+            "Think pub craw... but better. Why? Because you don't have to buy things, just a ticket."
         ],
-        "link": "https://engage.luu.org.uk/events/C73G2/paint-and-sip-women-non-binary-compsoc-social",
-        "linkText": "Get Your Free Ticket"
+        "link": "https://engage.luu.org.uk/events/RJMJK/fridge2fridge-nov-2025",
+        "linkText": "Get Your Ticket"
     },
     {
+        "image": "/events/ukiepc.jpg",
         "name": "UKIEPC (UK and Ireland Programming Contest)",
         "description": "The University of Leeds is hosting the UK and Ireland Programming Contest (one of the subregional competitions for the International Collegiate Programming Contest), where you can compete for a chance to go to Germany for the NWERC (Northwestern Europe European Regional Contest)! Information on how to register a team is on Engage.",
         "location": "(2.15) Sir William Henry Bragg Building, LS2 9JT",

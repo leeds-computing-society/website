@@ -86,14 +86,12 @@ export const EventCard = (properties: EventCardProperties) =>
     };
 
     return (
-        <div className="flex flex-col min-[48rem]:flex-row bg-brand-primary-450/50 border-t min-[48rem]:border-l min-[48rem]:border-r border-white/50">
-            <div className="bg-brand-primary-400/50 max-[48rem]:border-b min-[48rem]:border-r border-white/50 border-dashed">
+        <div className="flex flex-col bg-brand-primary-450/50 border-t border-l border-r border-white/50">
+            <div className="flex flex-row bg-brand-primary-400/50 border-b border-white/50 border-dashed">
                 {properties.image !== undefined ?
-                    <div className="w-48 h-full box-content max-[48rem]:h-48 max-[48rem]:border-r border-white/50 border-dashed overflow-hidden">
-                        <Image className="object-cover object-center h-full w-full" src={properties.image} alt="Event Logo" width={256} height={256} />
-                    </div>
+                    <Image className="w-48 h-48 object-cover object-center border-r border-white/50 border-dashed" src={properties.image} alt="Event Logo" width={256} height={256} />
                     :
-                    <div className="w-48 box-content max-[48rem]:h-48 max-[48rem]:border-r border-white/50 border-dashed">
+                    <div className="w-48 h-48 box-content border-r border-white/50 border-dashed">
                         <svg viewBox="0 0 192 192" strokeWidth="1" className="stroke-white/50">
                             <line
                                 x1="0"
@@ -104,35 +102,35 @@ export const EventCard = (properties: EventCardProperties) =>
                         </svg>
                     </div>
                 }
-            </div>
-            <div className="py-3 px-6 flex flex-col justify-between">
-                <div>
-                    <div className="text-lg">{properties.name}</div>
-                    {
-                        typeof properties.description === "string"
-                            ?
-                            <div className="text-md mt-3">{properties.description}</div>
-                            :
-                            properties.description.map((paragraph, index) => <div key={index} className="text-md mt-3">{paragraph}</div>)
-                    }
-                    {
-                        (properties.link !== undefined && properties.linkText !== undefined) &&
-                        <Link className="block text-center mt-3 px-3 py-2 border transition-button bg-white/10 border-white/50 hover:bg-brand-secondary-500 cursor-pointer" href={properties.link}>{properties.linkText}</Link>
-                    }
-                </div>
-                <div className="flex flex-row justify-between gap-12 items-end text-md mt-3 text-white/75">
-                    {
-                        properties.location !== undefined ?
-                            <div>{properties.location}</div>
-                            :
-                            <div>TBA</div>
-                    }
-                    <div className="flex flex-row flex-wrap justify-end">
-                        <div className="text-nowrap">{when}</div>
-                        {end !== undefined && <div className="text-nowrap">&nbsp;- {end}</div>}
+                <div className="py-3 px-6 grow flex flex-col justify-between">
+                    <div className="text-xl">{properties.name}</div>
+                    <div className="flex flex-row justify-between gap-12 items-end text-md text-white/75">
+                        {
+                            properties.location !== undefined ?
+                                <div>{properties.location}</div>
+                                :
+                                <div>TBA</div>
+                        }
+                        <div className="flex flex-row flex-wrap justify-end">
+                            <div className="text-nowrap">{when}</div>
+                            {end !== undefined && <div className="text-nowrap">&nbsp;- {end}</div>}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div >
+            <div className="py-3 px-6 flex flex-col justify-between">
+                {
+                    typeof properties.description === "string"
+                        ?
+                        <div className="text-md">{properties.description}</div>
+                        :
+                        properties.description.map((paragraph, index) => <div key={index} className="text-md not-first:mt-3">{paragraph}</div>)
+                }
+                {
+                    (properties.link !== undefined && properties.linkText !== undefined) &&
+                    <Link className="block text-center mt-3 mb-3 px-3 py-2 border transition-button bg-white/10 border-white/50 hover:bg-brand-secondary-500 cursor-pointer" href={properties.link}>{properties.linkText}</Link>
+                }
+            </div>
+        </div>
     );
 };
