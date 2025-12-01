@@ -7,7 +7,38 @@
         "description": "Every Tuesday we meet at the Library pub for a relaxed catch-up - everyone is welcome! Come to meet new people and feel free to ask us any questions about academic or university life. The pub has great deals on food and drinks so it's budget-friendly."
     },
     {
-        "image": "/events/events-industry-talk-pexip.jpg",
+        "name": "Women & Non-binary Social: How To Secure A Role In Tech Workshop",
+        "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-11-03T18:30:00",
+        "end": "2025-11-03T20:30:00",
+        "description": [
+            "This workshop is exclusively for women and non-binary members.",
+            "Join us for a workshop with Jade Wright to learn how to secure a role in tech - whether it's an internship, spring week, year placement, or graduate scheme."
+        ]
+    },
+    {
+        "name": "Fridge 2 Fridge",
+        "location": "Announced Soon",
+        "when": "2025-11-07T20:00:00",
+        "end": "2025-11-07T23:59:00",
+        "description": [
+            "The ultimate CompSoc social returns — four houses, four drinks, one unforgettable night.",
+            "Think pub craw... but better. Why? Because you don't have to buy things, just a ticket."
+        ],
+        "link": "https://engage.luu.org.uk/events/RJMJK/fridge2fridge-nov-2025",
+        "linkText": "Get Your Ticket"
+    },
+    {
+        "name": "BioComputational Pipelines Workshop (Nextflow)",
+        "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-11-11T18:00:00",
+        "end": "2025-11-11T20:00:00",
+        "description": "Nextflow is a powerful and flexible open-source workflow management system that simplifies the development, execution, and scalability of data-driven computational pipelines. This beginner-friendly workshop is designed for students who want to learn how to build and run bioinformatics workflows with Nextflow.",
+        "link": "https://engage.luu.org.uk/events/BXBDR/biocomputational-pipelines-workshop",
+        "linkText": "Get Your Free Ticket"
+    },
+    {
+        "image": "/events/pexip.jpg",
         "name": "Fortnightly Industry Talk (Pexip)",
         "location": "(GR.18) Sir William Henry Bragg Building, LS2 9JT",
         "when": "2025-10-21T18:00:00+01:00",
@@ -39,6 +70,9 @@
     {
         "name": "UKIEPC (UK and Ireland Programming Contest)",
         "description": "The University of Leeds is hosting the UK and Ireland Programming Contest (one of the subregional competitions for the International Collegiate Programming Contest), where you can compete for a chance to go to Germany for the NWERC (Northwestern Europe European Regional Contest)! Information on how to register a team is on Engage.",
+        "location": "(2.15) Sir William Henry Bragg Building, LS2 9JT",
+        "when": "2025-10-18T10:00:00+01:00",
+        "end": "2025-10-18T16:30:00+01:00",
         "link": "https://engage.luu.org.uk/events/6TQ3V/ukiepc-uk-and-ireland-programming-contest-2025",
         "linkText": "Register on Engage"
     },
@@ -153,11 +187,14 @@
         "description": "Our regular Pixel Bar tournament made a return for this semester, with another closely fought Mario Kart battle, plenty of other games and delicious drinks. Whether you're a Mario Kart pro or coming along to socialise and play casually, everyone is welcome."
     },
     {
-        "image": "/events/events-branding-workshop.jpg",
+        "image": "/events/virgin-media-o2.jpg",
         "name": "Personal Branding Workshop",
         "location": "Esther Simpson Building, Lyddon Terrace, Leeds LS2 9LA",
         "when": "2024-11-14 13:00",
-        "description": "A workshop run by Virgin Media O2 aimed at women in tech, this was a great opportunity to learn about personal branding and career skills from experts in a leading tech company. We're passionate about supporting our members to overcome barriers."
+        "description": "A workshop run by Virgin Media O2 aimed at women in tech, this is a great opportunity to learn about personal branding and career skills from experts in a leading tech company. We're passionate about supporting our members to overcome barriers.",
+        "link": "https://www.o2.co.uk/shop/phones",
+        "linkText": "O2 Offers",
+        "linkPersists": true
     },
     {
         "name": "Arcade Club",

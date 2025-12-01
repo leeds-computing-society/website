@@ -1,3 +1,4 @@
+"use client";
 import { EventCard, EventCardProperties, EventCardPropertiesInitial, EventCardPropertiesWhenKnown } from "@/app/components/event-card";
 import events from "@/app/static/events.json";
 
@@ -25,7 +26,7 @@ export default function Page()
 
     let now = new Date();
     let upcomingEvents = [...eventsParsed.filter((event) => event.when.getTime() > now.getTime()), ...eventsWhenUnknown];
-    let previousEvents = eventsParsed.filter((event) => event.when.getTime() <= now.getTime());
+    let previousEvents = eventsParsed.filter((event) => event.when.getTime() <= now.getTime()).map((event) => { return { ...event, link: event.linkPersists ? event.link : undefined }; });
     previousEvents.sort((x, y) => y.when.getTime() - x.when.getTime());
 
     return (

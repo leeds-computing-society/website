@@ -1,7 +1,5 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
-import { Flag } from "@/app/components/flag";
-import { useEffect, useState } from "react";
 import type { Organization, WithContext, WebSite } from "schema-dts";
 
 const organisation: WithContext<Organization> = {
@@ -41,21 +39,6 @@ let structuredData: any[] = [
 
 export default function Page()
 {
-    let [flag, setFlag] = useState<boolean>(false);
-
-    useEffect(() =>
-    {
-        if (typeof window !== "undefined")
-        {
-            let flagActive = localStorage.getItem("flag");
-
-            if (flagActive === "true")
-            {
-                setFlag(true);
-            };
-        };
-    }, []);
-
     return (
         <div className="flex flex-col grow min-[32rem]:justify-center items-center text-center text-white max-w-5xl mx-auto">
             {
@@ -69,7 +52,6 @@ export default function Page()
             }
             <div className="m-12 flex flex-col items-center gap-6">
                 <div className="relative w-fit max-[29.13rem]:h-[9rem] max-[32rem]:h-[6rem] max-[33.63rem]:h-[10.5rem] max-[49.88rem]:h-[7rem] max-[66rem]:h-[3.5rem] h-[4.5rem]">
-                    {flag && <Flag className="absolute top-[-2rem] left-[-0.75rem] rotate-330 w-12 fill-white"></Flag>}
                     <TypeAnimation
                         preRenderFirstString={true}
                         omitDeletionAnimation={true}

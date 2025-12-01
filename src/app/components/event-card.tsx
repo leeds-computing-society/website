@@ -11,6 +11,7 @@ export interface EventCardPropertiesInitial
     description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
+    linkPersists?: boolean | undefined;
     hideTime?: boolean | undefined;
 };
 
@@ -24,6 +25,7 @@ export interface EventCardPropertiesWhenKnown
     description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
+    linkPersists?: boolean | undefined;
     hideTime?: boolean | undefined;
 };
 
@@ -37,6 +39,7 @@ export interface EventCardProperties
     description: string | string[];
     link?: string | undefined;
     linkText?: string | undefined;
+    linkPersists?: boolean | undefined;
     hideTime?: boolean | undefined;
 };
 
