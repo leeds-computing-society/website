@@ -229,10 +229,26 @@ html {
 .link-leeds-hack-2026 {
     &::after {
         background: var(--color-leeds-hack-2026-primary-500);
-        /* background: linear-gradient(
-            120deg,
-            var(--color-leeds-hack-2026-primary-500) 0%,
-            var(--color-leeds-hack-2026-secondary-500) 100%
-        ); */
+    }
+}
+
+::selection {
+    background: var(--color-brand-secondary-500);
+    color: var(--color-white);
+}
+
+@media (min-width: 48rem) {
+    .link-leeds-hack-2026 {
+        margin-left: 1.5rem;
+
+        &::before {
+            position: absolute;
+            left: -1.5rem;
+            top: 0px;
+            content: "";
+            height: 100%;
+            width: 2px;
+            background-color: var(--color-white);
+        }
     }
 }

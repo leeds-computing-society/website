@@ -1,6 +1,7 @@
 "use client";
 import { EventCard, EventCardProperties, EventCardPropertiesInitial, EventCardPropertiesWhenKnown } from "@/app/components/event-card";
 import events from "@/app/static/events.json";
+import { List, RowComponentProps, useDynamicRowHeight } from "react-window";
 
 export default function Page()
 {
@@ -28,6 +29,17 @@ export default function Page()
     let upcomingEvents = [...eventsParsed.filter((event) => event.when.getTime() > now.getTime()), ...eventsWhenUnknown];
     let previousEvents = eventsParsed.filter((event) => event.when.getTime() <= now.getTime()).map((event) => { return { ...event, link: event.linkPersists ? event.link : undefined }; });
     previousEvents.sort((x, y) => y.when.getTime() - x.when.getTime());
+
+    // let largeEvents = previousEvents.concat(previousEvents).concat(previousEvents).concat(previousEvents).concat(previousEvents);
+
+    // let rowHeight = useDynamicRowHeight({
+    //     defaultRowHeight: 1024
+    // });
+
+    // let PreviousEventsRow = ({ index, largeEvents, style }: RowComponentProps<{ largeEvents: EventCardProperties[]; }>) => (
+    //     <EventCard key={index} {...largeEvents[index]}></EventCard>
+    // );
+
 
     return (
         <div className="flex flex-row justify-center grow text-white">
@@ -61,12 +73,19 @@ export default function Page()
                             </div>
                             :
                             <div className="grow flex flex-col border-b border-white/50">
+                                {/* <List
+                                    rowComponent={PreviousEventsRow}
+                                    rowCount={largeEvents.length}
+                                    rowHeight={rowHeight}
+                                    rowProps={{ largeEvents }}>
+                                </List> */}
+
                                 {previousEvents.map((event, index) => <EventCard key={index} {...event}></EventCard>)}
                             </div>
                     }
                     <div className="shrink-0 min-[48rem]:w-6 min-[96rem]:w-48 border-t border-b border-dashed border-white/50"></div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };

@@ -8,7 +8,7 @@ export const Background = () =>
     let canvas = useRef<HTMLDivElement | null>(null);
 
     return (
-        <div ref={canvas} className="absolute w-full h-full -z-10">
+        <div ref={canvas} className="fixed w-full h-full -z-10">
             <Canvas
                 gl={{
                     alpha: true,

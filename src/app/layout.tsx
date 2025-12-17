@@ -7,6 +7,9 @@ import { Footer } from "@/app/components/footer";
 import { Background } from "@/app/components/background";
 import { defaultMetadata } from "@/app/metadata";
 
+// Debug
+import { ReactScan } from "@/app/components/react-scan";
+
 const jetBrainsMono = JetBrains_Mono({
     subsets: ["latin"],
 });
@@ -27,6 +30,7 @@ export default function RootLayout({
 {
     return (
         <html lang="en">
+            <ReactScan></ReactScan>
             <head>
             </head>
             <body className={jetBrainsMono.className + " absolute h-full w-full m-0 p-0 bg-brand-primary-500"}>

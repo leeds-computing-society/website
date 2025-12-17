@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { type RowComponentProps } from "react-window";
 
 export interface EventCardPropertiesInitial
 {
@@ -86,38 +88,29 @@ export const EventCard = (properties: EventCardProperties) =>
     };
 
     return (
-        <div className="flex flex-col bg-brand-primary-450/50 border-t border-l border-r border-white/50">
-            <div className="flex flex-row bg-brand-primary-400/50 border-b border-white/50 border-dashed">
-                {properties.image !== undefined ?
-                    <Image className="w-48 h-48 object-cover object-center border-r border-white/50 border-dashed" src={properties.image} alt="Event Logo" width={256} height={256} />
-                    :
-                    <div className="w-48 h-48 box-content border-r border-white/50 border-dashed">
-                        <svg viewBox="0 0 192 192" strokeWidth="1" className="stroke-white/50">
-                            <line
-                                x1="0"
-                                y1="192"
-                                x2="192"
-                                y2="0"
-                            />
-                        </svg>
-                    </div>
-                }
-                <div className="py-3 px-6 grow flex flex-col justify-between">
+        <div className="flex flex-col bg-brand-primary-450/50 border-t min-[48rem]:border-l min-[48rem]:border-r not-last:border-b border-white/50 not-last:mb-6">
+            <div className="flex flex-row bg-brand-primary-400/75 border-b border-white/50 border-dashed">
+
+                <div className="py-3 px-6 grow flex flex-col justify-between gap-3 min-[48rem]:gap-1.5">
                     <div className="text-xl">{properties.name}</div>
-                    <div className="flex flex-row justify-between gap-12 items-end text-md text-white/75">
+                    <div className="flex flex-row justify-between gap-12 items-end text-sm min-[48rem]:text-md text-white/75">
                         {
                             properties.location !== undefined ?
                                 <div>{properties.location}</div>
                                 :
                                 <div>TBA</div>
                         }
-                        <div className="flex flex-row flex-wrap justify-end">
+                        <div className="flex flex-row flex-wrap justify-end text-end">
                             <div className="text-nowrap">{when}</div>
                             {end !== undefined && <div className="text-nowrap">&nbsp;- {end}</div>}
                         </div>
                     </div>
                 </div>
             </div>
+            {properties.image === undefined ||
+                <Image className="w-full h-32  min-[48rem]:h-64 object-cover object-center border-b border-white/50 border-dashed" src={properties.image} alt="Event Logo" width={1148} height={256} />
+
+            }
             <div className="py-3 px-6 flex flex-col justify-between">
                 {
                     typeof properties.description === "string"
