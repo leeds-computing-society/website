@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <div className="flex flex-row justify-center grow text-white">
       <div className="flex flex-col mx-6 min-[64rem]:mx-12 min-[80rem]:mx-48 grow max-w-[96rem] border-l border-r border-dashed border-white/50">
-        <div className=" py-3 px-6 min-[96rem]:px-48 mt-12 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
+        <div className="py-3 px-6 min-[96rem]:px-48 mt-12 text-3xl border-t border-b border-white/50 bg-brand-primary-450/50">
           Our Sponsors
         </div>
         <div className="py-6 px-6 min-[96rem]:px-48 text-md">
@@ -27,7 +27,7 @@ export default function Page() {
         <div className="flex flex-row items-center min-[48rem]:px-6 min-[96rem]:px-48 border-t border-b border-white/50 bg-brand-primary-450/50">
           <div
             data-flag="flag{x7Qm2Rk9}"
-            className=" w-full py-6 px-6 min-[48rem]:border-l min-[48rem]:border-r border-dashed border-white/50 bg-[#272F64]"
+            className="w-full py-6 px-6 min-[48rem]:border-l min-[48rem]:border-r border-dashed border-white/50 bg-[#272F64]"
           >
             <TPPLogo className="fill-white h-12"></TPPLogo>
           </div>
@@ -52,38 +52,17 @@ export default function Page() {
             TPP has been consistently recognised as an outstanding graduate
             employer. Since 2017, we have consistently featured in The Job
             Crowds' "Top Company for Graduates to Work For", and were the
-            overall winners for 2024 in addition to awards for 'Best Salary',
-            'Benefits' and 'Responsibility'. We have also been consistently
-            named in the Times Top 100 Graduate Employers list.
-          </p>
-        </div>
-        <div className="py-6 px-6 min-[96rem]:px-48 text-md border-t border-dashed border-white/50">
-          <p>
-            We are looking for bright and driven graduates from all disciplines
-            to work on exciting projects in our Analyst team.
+            overall winners for 2026/2027 in addition to awards for 'Best
+            Salary', 'Benefits', 'Responsibility', 'Management' and 'Career
+            Progression'. We have also been consistently named in the Times Top
+            100 Graduate Employers list.
           </p>
           <p className="mt-3">
-            You will work across a range of healthcare settings to understand
-            requirements, and then collaborate with Software Developers to
-            design new functionality. The role combines aspects of business
-            analysis, systems analysis, and project management.
-          </p>
-          <p className="mt-3">
-            The variety of projects means that you will always have something
-            new to learn. Your first project could be working on functionality
-            to help a hospital manage patient flow in a busy emergency
-            department. On the next, you could be designing and deploying an app
-            for patients in rural communities in China.
-          </p>
-          <p className="mt-3">
-            Apply{" "}
-            <Link
-              href="https://tpp-careers.com/roles/business-analyst"
-              className="link link-shown"
-            >
-              here
-            </Link>
-            .
+            To read what it's like to work at TPP and to see our full list of
+            benefits, visit{" "}
+            <Link href="https://tpp-careers.com" className="link link-shown">
+              www.tpp-careers.com
+            </Link>{" "}
           </p>
         </div>
         <div className="flex flex-row items-center min-[48rem]:px-6 min-[96rem]:px-48  border-t border-b border-white/50 bg-brand-primary-450/50">
