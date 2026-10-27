@@ -25,10 +25,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-row items-center min-[48rem]:px-6 min-[96rem]:px-48 border-t border-b border-white/50 bg-brand-primary-450/50">
-          <div
-            data-flag="flag{x7Qm2Rk9}"
-            className="w-full py-6 px-6 min-[48rem]:border-l min-[48rem]:border-r border-dashed border-white/50 bg-[#272F64]"
-          >
+          <div className="w-full py-6 px-6 min-[48rem]:border-l min-[48rem]:border-r border-dashed border-white/50 bg-[#272F64]">
             <TPPLogo className="fill-white h-12"></TPPLogo>
           </div>
         </div>

@@ -92,11 +92,6 @@ export const Header = () => {
               className={`relative ${HeaderItemTypeMap[item.type]}`}
             >
               {item.text}
-              {item.text === "Sponsors" && (
-                <span className="absolute -top-3 -right-3 text-xs rotate-12 pointer-events-none select-none animate-bounce">
-                  🚩
-                </span>
-              )}
             </Link>
           ))}
         </div>
